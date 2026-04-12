@@ -3,7 +3,7 @@
 import math
 import pygame
 
-from highway_fury.config import WHITE
+from config import WHITE
 
 
 def draw_face_rabbit(surface, cx, cy, r, hurt=False):

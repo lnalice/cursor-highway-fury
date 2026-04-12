@@ -2,8 +2,8 @@
 
 import pygame
 
-from highway_fury.config import WIDTH, HEIGHT, WHITE, RED, YELLOW, ORANGE, NEON_GREEN
-from highway_fury.drawing.characters import FACE_DRAWERS
+from config import WIDTH, HEIGHT, WHITE, RED, YELLOW, ORANGE, NEON_GREEN
+from drawing.characters import FACE_DRAWERS
 
 
 def draw_gameover(surface, game):

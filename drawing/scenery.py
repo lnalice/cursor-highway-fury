@@ -2,7 +2,7 @@
 
 import pygame
 
-from highway_fury.config import BLACK, ORANGE, WHITE, BROWN, DARK_GREEN, GREEN
+from config import BLACK, ORANGE, WHITE, BROWN, DARK_GREEN, GREEN
 
 
 def draw_barrier(surface, x, y, w, h):

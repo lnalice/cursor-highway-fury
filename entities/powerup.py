@@ -3,7 +3,7 @@
 import math
 import pygame
 
-from highway_fury.config import (
+from config import (
     WHITE, ORANGE, CYAN, NEON_GREEN, LANE_CENTERS,
     POWERUP_NITRO, POWERUP_SHIELD,
 )

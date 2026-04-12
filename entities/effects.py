@@ -3,7 +3,7 @@
 import random
 import pygame
 
-from highway_fury.config import WHITE, ROAD_LEFT, ROAD_RIGHT
+from config import WHITE, ROAD_LEFT, ROAD_RIGHT
 
 
 class Particle:

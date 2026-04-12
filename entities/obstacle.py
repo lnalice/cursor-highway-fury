@@ -4,13 +4,13 @@ import math
 import random
 import pygame
 
-from highway_fury.config import (
+from config import (
     HEIGHT, YELLOW, WHITE, LANE_COUNT, LANE_CENTERS, LANE_WIDTH,
     ROAD_LEFT, ROAD_RIGHT, ENEMY_COLORS,
     OBS_CAR, OBS_TRUCK, OBS_MOTORCYCLE, OBS_BARRIER, OBS_CONE,
     OBS_OIL, OBS_BROKEN, OBS_POLICE,
 )
-from highway_fury.drawing import (
+from drawing import (
     draw_car_body, draw_truck, draw_motorcycle,
     draw_barrier, draw_cone, draw_oil,
 )

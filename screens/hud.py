@@ -2,11 +2,11 @@
 
 import pygame
 
-from highway_fury.config import (
+from config import (
     WIDTH, HEIGHT, WHITE, DARK_GRAY, LIGHT_GRAY, RED, YELLOW, GREEN,
     ORANGE, CYAN, MAGENTA, NEON_GREEN, NEON_PINK, CHARACTERS, CHARACTER_KEYS,
 )
-from highway_fury.drawing.characters import FACE_DRAWERS
+from drawing.characters import FACE_DRAWERS
 
 
 def draw_character_portrait(surface, game):

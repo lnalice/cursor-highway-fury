@@ -4,11 +4,11 @@ import math
 import random
 import pygame
 
-from highway_fury.config import (
+from config import (
     HEIGHT, LANE_CENTERS, ROAD_LEFT, ROAD_RIGHT,
     DIFFICULTY_PRESETS, CHARACTERS,
 )
-from highway_fury.drawing.vehicles import draw_car_body
+from drawing.vehicles import draw_car_body
 
 
 class Player:

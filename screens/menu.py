@@ -3,12 +3,12 @@
 import math
 import pygame
 
-from highway_fury.config import (
+from config import (
     WIDTH, HEIGHT, WHITE, GRAY, DARK_GRAY, LIGHT_GRAY, YELLOW, ORANGE,
     RED, CYAN, NEON_GREEN, NEON_PINK,
     DIFFICULTY_PRESETS, CHARACTERS, DIFFICULTY_KEYS, CHARACTER_KEYS, MENU_BUTTONS,
 )
-from highway_fury.drawing.characters import FACE_DRAWERS
+from drawing.characters import FACE_DRAWERS
 
 
 def _draw_bg_overlay(surface, game):
@@ -153,7 +153,7 @@ def draw_guide(surface, game):
     sy += 12
     surface.blit(fm.render("POWER-UPS", True, YELLOW), (lx, sy))
     sy += 38
-    from highway_fury.config import ORANGE as _O, CYAN as _C, NEON_GREEN as _N
+    from config import ORANGE as _O, CYAN as _C, NEON_GREEN as _N
     for color, symbol, name, desc in [(_O, "N", "NITRO", "Nitro gauge +50"),
                                        (_C, "S", "SHIELD", "8s barrier"),
                                        (_N, "x2", "SCORE x2", "10s double pts")]:

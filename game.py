@@ -5,7 +5,7 @@ import sys
 
 import pygame
 
-from highway_fury.config import (
+from config import (
     WIDTH, HEIGHT, FPS, TITLE, WHITE, RED, ORANGE, CYAN, NEON_GREEN, NEON_PINK,
     SKY_BLUE, YELLOW, SHOULDER_COLOR, ROAD_COLOR, ROAD_LEFT, ROAD_RIGHT,
     ROAD_WIDTH, LANE_COUNT, LANE_WIDTH, LANE_CENTERS,
@@ -14,10 +14,10 @@ from highway_fury.config import (
     POWERUP_NITRO, POWERUP_SHIELD, POWERUP_MAGNET,
     DIFFICULTY_PRESETS, DIFFICULTY_KEYS, CHARACTER_KEYS,
 )
-from highway_fury.sounds import SoundBank
-from highway_fury.drawing.scenery import draw_tree, draw_mountain
-from highway_fury.entities import Particle, SpeedLine, FloatingText, Obstacle, PowerUp, Player
-from highway_fury.screens import (
+from sounds import SoundBank
+from drawing.scenery import draw_tree, draw_mountain
+from entities import Particle, SpeedLine, FloatingText, Obstacle, PowerUp, Player
+from screens import (
     draw_menu, draw_difficulty_select, draw_character_select, draw_guide,
     draw_hud, draw_gameover, draw_pause,
 )
