@@ -1,4 +1,4 @@
-from entities.effects import Particle, SpeedLine, FloatingText
-from entities.obstacle import Obstacle
-from entities.powerup import PowerUp
-from entities.player import Player
+from .effects import Particle, SpeedLine, FloatingText
+from .obstacle import Obstacle
+from .powerup import PowerUp
+from .player import Player
